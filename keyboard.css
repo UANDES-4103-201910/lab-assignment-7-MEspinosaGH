@@ -1,3 +1,50 @@
 /* Define your CSS styles here */
 /* Remember to validate your CSS at https://jigsaw.w3.org/css-validator/ */
 
+* { box-sizing: border-box; }
+
+#kcontainer {
+	width: 100%;
+	padding: 20px;
+    font-family: "Courier New"
+}
+
+.row {
+	display: flex;
+	justify-content: center;
+	line-height: 50px;
+}
+
+.key {
+	border-radius: 5px;
+	background: darkgray;
+    width: 50px;	
+}
+
+.control {
+	background: MediumSeaGreen;
+    border-radius: 5px;
+    width: 80px;
+}
+
+.key, .control{
+	text-align: center;
+    margin: 2px;
+    padding: 1px;
+	color: white;
+}
+
+.key:active {
+	background: gray;
+}
+.control:active {
+	background: SeaGreen;
+}
+
+.Bksp, .Tab{
+	width: 80px;
+}
+
+.space {
+	width: 250px;
+}
