@@ -4,34 +4,34 @@
 * { box-sizing: border-box; }
 
 #kcontainer {
-	width: 100%;
+	width: 100vw;
 	padding: 20px;
-    font-family: "Courier New"
+    font-family: "Courier New";
+    font-size: 2vw
 }
 
 .row {
 	display: flex;
 	justify-content: center;
-	line-height: 50px;
+	line-height: 6vw;
 }
 
 .key {
-	border-radius: 5px;
 	background: darkgray;
-    width: 50px;	
+    width: 6vw;	
 }
 
 .control {
 	background: MediumSeaGreen;
-    border-radius: 5px;
-    width: 80px;
+    width: 12vw;
 }
 
 .key, .control{
 	text-align: center;
-    margin: 2px;
-    padding: 1px;
+    margin: 0.25vw;
+    padding: 0.1vw;
 	color: white;
+	border-radius: 0.5vw;
 }
 
 .key:active {
@@ -42,9 +42,9 @@
 }
 
 .Bksp, .Tab{
-	width: 80px;
+	width: 12vw;
 }
 
 .space {
-	width: 250px;
+	width: 40vw;
 }
